@@ -30,12 +30,12 @@ Math&amp;Number_Theory C++
 * why add c = becouse in worst case a%c =0 | b%c = c-1 | (a%c) - (b%c) = -(c-1) so adding a c will make it positve
 # modular_exponentiation
 exponentiation : 
-	Optimization :
-		if n is even 
-			x pow(n) = (x pow(2) ) pow(n/2)
-			3 pow(10) = 3 pow(2) pow(5)
-		if n is odd
-			x pow (n) = x*x pow(n-1)
-			9 pow(5) = 9*9pow(4)
+*	Optimization :
+*		if n is even 
+*			x pow(n) = (x pow(2) ) pow(n/2)
+*			3 pow(10) = 3 pow(2) pow(5)
+*		if n is odd
+*			x pow (n) = x*x pow(n-1)
+*			9 pow(5) = 9*9pow(4)
 
   
