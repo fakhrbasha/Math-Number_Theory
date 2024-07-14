@@ -37,5 +37,13 @@ exponentiation :
 *		if n is odd
 *			x pow (n) = x*x pow(n-1)
 *			9 pow(5) = 9*9pow(4)
+# Factorization.cpp 
+// what factor : number that divides into another number exactly and without leaving a remainder
 
+	* n % factor = 0
+	* n = 36 
+	* factor 36 : 1 2 3 4 6 9 12 18 36 
+	
+ *	factorization : is finding the number's factor
+ *loop ->	if (n%i==0)
   
