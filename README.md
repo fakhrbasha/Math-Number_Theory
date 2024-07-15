@@ -94,3 +94,5 @@ exponentiation :
 from modulae arithmetic 
 gcd[a,b] = gcd[b , a%b] we stop when b = 0
 </h4>
+<h2>Problem Codeforces</h2>
+<a href="https://codeforces.com/problemset/problem/822/A">I'm bored with life</a>
