@@ -73,6 +73,24 @@ exponentiation :
   <li>[5 , 0] => 5     number , 0 => number</li>
 </ul>
 <h4>can we do better</h4>
-* 30 =2*3*5
-* 45 =3*3*5
-* gcd[30,45] = 3*3=15 so can use prime factorization
+<ul>
+  <li>30 =2*3*5</li>
+  <li>45 =3*3*5</li>
+  <li>gcd[30,45] = 3*3=15 so can use prime factorization</li>
+
+</ul>
+<h2>Euclidean Algorthim</h2>
+<h4>gcd[20,15]</h4>
+<p>can subtract the smaller number from the larger number </p>
+<ul>
+  <li>20 15</li>
+  <li>5 15</li>
+  <li>5 10</li>
+  <li>5 5</li>
+  <li>0 5</li>
+</ul>
+<p> GCD : 5</p>
+<h4>
+from modulae arithmetic 
+gcd[a,b] = gcd[b , a%b] we stop when b = 0
+</h4>
