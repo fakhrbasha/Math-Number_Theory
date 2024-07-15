@@ -62,3 +62,17 @@ exponentiation :
 <h4>n = 24 => 2*12 => 2*2*2*3</h4>
 <h2>Problem Codeforces</h2>
 <a href="https://codeforces.com/problemset/problem/797/A"> k-Factorization</a>
+
+# GCD
+<h2>two number is largest number that divides them both</h2>
+<h4>find gcd [20,15]  =>5</h4>
+<ul>
+  <li>[5 , 5]  =>5</li>
+  <li>[6 , 3] => 3</li>
+  <li>[7 , 5] => 1</li>
+  <li>[5 , 0] => 5     number , 0 => number</li>
+</ul>
+<h4>can we do better</h4>
+* 30 =2*3*5
+* 45 =3*3*5
+* gcd[30,45] = 3*3=15 so can use prime factorization
