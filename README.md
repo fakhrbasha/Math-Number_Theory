@@ -46,4 +46,19 @@ exponentiation :
 	
  *	factorization : is finding the number's factor
  *loop ->	if (n%i==0)
-  
+# prime_factorization
+<h2>Prime Number : number n with only two factor 1 and n</h2>
+<h4>n = 1 not prime </h4>
+<h4>n = 2 prime becouse can divide 1 and 2 </h4>
+<h4>n = 3 prime                tow factor 1 , 3</h4>
+<h4>n = 4 not prime {1,2,4}</h4>
+<h4>n = 5 prime      {1,5}</h4>
+<h4>find prime factor of n = 36</h4>
+<h4>36 -> 2*18 -> 2*2*9 -> 2*2*3*3</h4>
+<h4>n = 10 => 2*5</h4>
+<h4>n = 15 => 3*5</h4>
+<h4>n = 8 => 2*2*2</h4>
+<h4>n = 9 => 3*3</h4>
+<h4>n = 24 => 2*12 => 2*2*2*3</h4>
+<h2>Problem Codeforces</h2>
+<a src="https://codeforces.com/problemset/problem/797/A" alt="Codeforces">
