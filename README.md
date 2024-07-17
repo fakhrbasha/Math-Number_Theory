@@ -99,10 +99,27 @@ gcd[a,b] = gcd[b , a%b] we stop when b = 0
 
 # LCM
 <h2>least number that multiple of a and b it means it divdes a and b</h2>
-<p>
-	a=3 b=8 
-	lcm(a,b) = 24 // اصغر رقم يقبل القسمة علي 3 و 8
-	3 = 3 
-	8 = 2*2*2
-	lcm (3,8) = 24 = 2*2*2*3     -_-
-</p>
+<ul>
+  <li>a=3 b=8 </li>
+  <li>lcm(a,b) = 24 // اصغر رقم يقبل القسمة علي 3 و 8</li>
+  <li>3 = 3 </li>
+  <li>8 = 2*2*2</li>
+  <li>lcm (3,8) = 24 = 2*2*2*3     -_-</li>
+</ul>
+<h3> -- -- -- -- --</h3>
+<ul>
+  <li>a = 2*2*3*3*5*7</li>
+  <li>b = 2*3*5*5*7*7</li>
+  <li>lcm (a,b) = 2*2*3*3*5*5*7*7 </li>
+  <li>a*b=2*2*2*3*3*3*5*5*5*7*7*7</li>
+  <li>lcm (a,b) = 2*2*3*3*5*5*7*7</li>
+  <li>gcd (a,b) = 2*3*5*7</li>
+</ul>
+<h2>Note</h2>
+<h1>lcm(a,b) = (a*b)/gcd(a,b)</h1>
+<dl>
+  <dt>GCD</dt>
+  <dd>-  take the Min repetition of prime factor</dd>
+  <dt>LCM</dt>
+  <dd>- take the Max repetition of prime factor</dd>
+</dl>
