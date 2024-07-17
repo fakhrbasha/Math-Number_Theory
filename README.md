@@ -96,3 +96,13 @@ gcd[a,b] = gcd[b , a%b] we stop when b = 0
 </h4>
 <h2>Problem Codeforces</h2>
 <a href="https://codeforces.com/problemset/problem/822/A">I'm bored with life</a>
+
+# LCM
+<h2>least number that multiple of a and b it means it divdes a and b</h2>
+<p>
+	a=3 b=8 
+	lcm(a,b) = 24 // اصغر رقم يقبل القسمة علي 3 و 8
+	3 = 3 
+	8 = 2*2*2
+	lcm (3,8) = 24 = 2*2*2*3     -_-
+</p>
