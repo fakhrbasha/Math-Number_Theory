@@ -123,3 +123,6 @@ gcd[a,b] = gcd[b , a%b] we stop when b = 0
   <dt>LCM</dt>
   <dd>- take the Max repetition of prime factor</dd>
 </dl>
+<h2>Problem Codeforces</h2>
+<a href="https://codeforces.com/problemset/problem/1325/A">EhAb AnD gCd</a>
+
